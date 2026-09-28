@@ -8,7 +8,7 @@ const config = {
     extend: {
       colors: {
         brand: {
-          bg: '#FAF7F3',
+          bg: '#FFFFFF',
           bgAlt: '#F0EBE5',
           fg: '#1C1C1C',
           fgLight: '#3D3935',
