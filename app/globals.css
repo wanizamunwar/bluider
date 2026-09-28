@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../css/style.css';
+
 :root {
   --bg: #FAF7F3;
   --fg: #1C1C1C;

@@ -2,65 +2,6 @@
    MERIDIAN PROPERTIES — Property Development Website
    ============================================ */
 
-/* --- Reset & Base --- */
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --bg: #FAF7F3;
-    --bg-alt: #F0EBE5;
-    --fg: #1C1C1C;
-    --fg-light: #4A4642;
-    --muted: #7A756E;
-    --accent: #B0724A;
-    --accent-dark: #8B5A36;
-    --accent-light: #D4A574;
-    --card: #FFFFFF;
-    --border: #E5DFD8;
-    --section-bg: #F0EBE5;
-    --success: #4A6340;
-    --shadow-sm: 0 1px 3px rgba(28, 28, 28, 0.06);
-    --shadow-md: 0 4px 16px rgba(28, 28, 28, 0.08);
-    --shadow-lg: 0 8px 32px rgba(28, 28, 28, 0.1);
-    --radius: 4px;
-    --transition: 0.25s ease;
-    --font-heading: 'Cormorant Garamond', Georgia, serif;
-    --font-body: 'DM Sans', -apple-system, sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-    font-size: 16px;
-}
-
-body {
-    font-family: var(--font-body);
-    background-color: var(--bg);
-    color: var(--fg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 /* --- Typography --- */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
