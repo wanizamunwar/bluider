@@ -8,15 +8,15 @@
   --bg: #FAF7F3;
   --bg-alt: #F0EBE5;
   --fg: #1C1C1C;
-  --fg-light: #4A4642;
-  --muted: #7A756E;
+  --fg-light: #3D3935;
+  --muted: #5E5A54;
   --accent: #B0724A;
   --accent-dark: #8B5A36;
   --accent-light: #D4A574;
   --card: #FFFFFF;
-  --border: #E5DFD8;
+  --border: #D5CFC8;
   --section-bg: #F0EBE5;
-  --success: #4A6340;
+  --success: #3D5A36;
   --shadow-sm: 0 1px 3px rgba(28, 28, 28, 0.06);
   --shadow-md: 0 4px 16px rgba(28, 28, 28, 0.08);
   --shadow-lg: 0 8px 32px rgba(28, 28, 28, 0.1);
@@ -204,8 +204,8 @@ p {
 .project-meta-item { padding: 12px 0; border-bottom: 1px solid var(--border); }
 .project-meta-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 2px; }
 .project-meta-value { font-size: 0.95rem; font-weight: 600; color: var(--fg); }
-.project-status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: rgba(74,99,64,0.1); color: var(--success); font-size: 0.75rem; font-weight: 600; border-radius: 2px; letter-spacing: 0.05em; }
-.project-status-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--success); }
+.project-status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: rgba(61,90,54,0.12); color: #3D5A36; font-size: 0.75rem; font-weight: 600; border-radius: 2px; letter-spacing: 0.05em; }
+.project-status-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #3D5A36; }
 
 /* --- Apartments Section --- */
 .apartments-filters { display: flex; justify-content: center; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
@@ -351,7 +351,7 @@ p {
 .footer-social svg { width: 18px; height: 18px; stroke: currentColor; fill: none; }
 .footer-column h4 { color: #fff; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 20px; }
 .footer-column ul li { margin-bottom: 10px; }
-.footer-column ul a { font-size: 0.88rem; color: rgba(255,255,255,0.5); transition: color var(--transition); }
+.footer-column ul a { font-size: 0.88rem; color: rgba(255,255,255,0.6); transition: color var(--transition); }
 .footer-column ul a:hover { color: var(--accent-light); }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; font-size: 0.8rem; color: rgba(255,255,255,0.35); }
 
